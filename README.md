@@ -1,6 +1,6 @@
 # liri-node-app
 
-LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will is a command line node app that takes in parameters and gives you back data from Twitter, Spotify and OMDB APIs.
+LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data from Twitter, Spotify and OMDB APIs.
 
 ## Instructions
 
@@ -35,8 +35,7 @@ liri.js can take in one of the following commands:
      * The album that the song is from
 
    * If no song is provided then it will default to "The Sign" by Ace of Base.
-   
-   * You will utilize the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) package in order to retrieve song information from the Spotify API.
+ 
    
 3. `node liri.js movie-this '<movie name here>'`
 
